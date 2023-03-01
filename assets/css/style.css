@@ -331,8 +331,8 @@ h3{
   margin-left: 190px;
 }
 .gallery {
-  --s: 150px; /* control the size */
-  --g: 1px;  /* control the gap */
+  --s: 140px; /* control the size */
+  --g: 10px;  /* control the gap */
   
   display: grid;
   gap: var(--g);
