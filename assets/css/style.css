@@ -370,6 +370,7 @@ h3{
     }
 .img5{
   width: 100px;
+  margin-left: 1px;
 }
     
 .faltan{
@@ -409,6 +410,6 @@ p{
 .img6{
         width: 150px !important;
         margin-left: 210px;
-        margin-top: -245px;
+        margin-top: -245px;margin-bottom: 10px;
       }
     }
