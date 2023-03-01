@@ -332,7 +332,7 @@ h3{
 }
 .gallery {
   --s: 150px; /* control the size */
-  --g: 10px;  /* control the gap */
+  --g: 1px;  /* control the gap */
   
   display: grid;
   gap: var(--g);
@@ -342,6 +342,9 @@ h3{
   transition: .5s;
   cursor: pointer;
   margin-bottom: 10px;
+}
+.gallery:hover {
+  font-size: calc(var(--s)/3);
 }
 .confirm{
         width: 150px;
